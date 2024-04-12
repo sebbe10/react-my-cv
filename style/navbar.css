@@ -1,0 +1,213 @@
+.theBackForTitleName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #83a1b9;
+  height: 50px;
+}
+
+.theBackForTitleName a {
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: 100;
+  font-size: 25px;
+  color: white;
+}
+
+.theBackForTitleName a:hover {
+  cursor: pointer;
+  text-shadow: 0 2px 2px lightblue;
+}
+
+.fa-bars {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  font-size: 35px;
+  color: white;
+}
+
+.fa-bars:hover {
+  color: whitesmoke;
+}
+
+.divRemove {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.fa-x {
+  color: white;
+  position: absolute;
+  right: 10px;
+  font-size: 35px;
+}
+.fa-x:hover {
+  cursor: pointer;
+  color: darkred;
+}
+
+.removeMenu {
+  right: -500px;
+  position: fixed;
+}
+
+.removeMenu.openBackMenu {
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+.thePhoneNav {
+  background-color: #83a1b9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.thePhoneNav .site-title {
+  color: white;
+}
+
+.thePhoneNav a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav {
+  position: absolute;
+  top: 0 !important;
+  right: -1500px;
+  height: 100vh;
+  /* background-color: whitesmoke; */
+  background-color: #83a1b9;
+  z-index: 100;
+  width: 40%;
+  position: fixed;
+  box-shadow: 0 2px 2px black;
+}
+
+.nav.open {
+  position: fixed;
+  right: 0;
+}
+
+.nav ul {
+  margin-top: 50px;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.nav li:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: white;
+  width: 70%;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  gap: 10px;
+}
+
+.nav a:hover {
+  cursor: pointer;
+  color: darkblue;
+}
+
+.gitLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 50px;
+}
+
+.fa-github {
+  font-size: 35px;
+}
+.fa-linkedin {
+  font-size: 35px;
+}
+
+.nav-computer {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .fa-bars {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+
+  .thePhoneNav {
+    display: none;
+  }
+
+  .nav-computer {
+    background-color: #83a1b9;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 70px;
+  }
+
+  .nav-computer h3 {
+    font-size: 30px;
+  }
+
+  .nav-computer .site-title {
+    text-decoration: none;
+  }
+
+  .nav-computer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+
+  .nav-computer a {
+    font-family: Arial;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+  }
+
+  .gitLinkComputer {
+    gap: 20px;
+    display: flex;
+    right: 20px;
+    position: fixed;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fa-github,
+  .fa-linkedin {
+    color: white;
+  }
+
+  .fa-github:hover,
+  .fa-linkedin:hover {
+    cursor: pointer;
+    color: black;
+  }
+}

@@ -1,0 +1,115 @@
+/* For phone */
+.homeStyle {
+  display: flex;
+  height: 90vh;
+}
+.searchAndProject {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.layoutSearch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px black;
+  background: white;
+  border-radius: 5px;
+  padding: 25px;
+  height: auto;
+}
+
+.layoutSearch div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.layoutSearch h3 {
+  font-family: Arial;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.layoutSearch a {
+  text-decoration: none;
+  color: gray;
+  font-family: Arial;
+  font-weight: 100;
+  font-size: 20px;
+
+  text-decoration: 1px underline black;
+}
+
+.homeImgMe {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.homeTicTacToe {
+  background-color: whitesmoke;
+}
+
+.tictactoehome {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+/* Img slider home */
+
+.divStyleImgSliderHome {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 300px;
+  height: auto;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+.borderForSliderImgSlider {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 2px black;
+}
+
+.singleSliderImgHome {
+  width: 200px;
+  height: 200px;
+  background-repeat: round;
+}
+
+.projectNameHome {
+  background-color: gray;
+  color: white;
+  width: 200px;
+}
+/*  */
+
+/*  */
+
+@media screen and (min-width: 768px) {
+  /* For computer and smartpad */
+  .layoutSearch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px black;
+    background: white;
+    border-radius: 5px;
+    padding: 25px;
+    height: auto;
+  }
+}
+/*  */

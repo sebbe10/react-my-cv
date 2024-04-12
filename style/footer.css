@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  background: #83a1b9;
+  color: white;
+  font-family: Arial;
+  font-weight: 100;
+}

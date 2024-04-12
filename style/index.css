@@ -1,0 +1,311 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: white;
+}
+/* * {
+  box-sizing: border-box;
+}
+/* 
+body {
+  margin: 0;
+  background-color: white;
+} */
+*/
+
+/* Header */
+/* .gitLink {
+  display: flex;
+  gap: 25px;
+  font-size: 30px;
+} */
+
+/*  */
+
+/* .nav {
+  background-color: whitesmoke;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  width: auto;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 0 1px 1px black;
+}
+
+.site-title {
+  font-size: 2rem;
+} */
+
+/* .nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+.nav a {
+  color: gray;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+} */
+
+/* .nav li:hover {
+  background-color: rgba(151, 179, 226, 0.825);
+  color: white;
+}
+
+.nav a:active {
+  color: black;
+} */
+
+/* All projekt */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.allProjekt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The clock projekt */
+
+.theClock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.backClock {
+  display: flex;
+  text-align: center;
+  width: auto;
+  background: whitesmoke;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 5px black;
+}
+.clockTime {
+  color: black;
+  font-size: 5rem;
+}
+
+.borderClock {
+  list-style: none;
+  text-align: center;
+}
+.theClockImg {
+  width: 30%;
+  height: 30%;
+  border: 1px solid black;
+}
+
+/*  */
+
+/* Image slider style */
+
+.fa-arrow-left,
+.fa-arrow-right {
+  color: #83a1b9;
+}
+
+.fa-arrow-right:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+.fa-arrow-right:active {
+  color: darkblue;
+}
+.fa-arrow-left:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+.fa-arrow-left:active {
+  color: darkblue;
+}
+
+/* Tic tac to game */
+
+.showStatus {
+  font-size: 25px;
+  font-family: Arial;
+}
+
+.theBorder {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.border-row {
+  display: flex;
+}
+
+.square {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+.resetGameTicTacToe {
+  background-color: whitesmoke;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+.resetGameTicTacToe:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+}
+
+.resetGameTicTacToe:active {
+  background-color: black;
+}
+
+/*  */
+
+/* Style cv */
+/* Phone style */
+
+.imgAndContact {
+  display: grid;
+  grid-template-columns: 200px 100px;
+}
+
+.aboutMeText {
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contactMe {
+  text-align: center;
+}
+.infoMe {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.imgMe {
+  width: 150px;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.theCv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 80%;
+  margin: auto;
+}
+
+.aboutMe {
+  text-align: center;
+  /* background: white; */
+
+  margin: 10px;
+}
+
+.driveLicense {
+  background: white;
+  padding: 10px;
+  margin: 10px;
+}
+.phoneContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.mailContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.myIntress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.study {
+  text-align: center;
+  background-color: white;
+}
+
+.work {
+  text-align: center;
+  background-color: white;
+}
+
+.ha {
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+}
+/* 
+.theCv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: whitesmoke;
+  width: 50%;
+  justify-content: center;
+}
+
+.theLeftSide {
+  width: 100%;
+}
+.theRightSide {
+  width: 100%;
+}
+
+.contactMe {
+  text-align: center;
+}
+.theRight {
+  text-align: center;
+} */
+/*  */

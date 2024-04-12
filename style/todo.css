@@ -1,0 +1,164 @@
+.divForTodo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.theLayoutForTodo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  padding: 5px 40px 5px;
+  box-shadow: 1px 1px 1px 1px black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.theH2 {
+  font-size: 25px;
+}
+
+.theInputAndButton {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: none;
+  gap: 2px;
+}
+
+.theInput {
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
+
+.addButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+.theOl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.theLi {
+  display: grid;
+  grid-template-columns: 250px 110px;
+  align-items: center;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 10px 40px;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.theButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.btn-delete {
+  color: red;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-delete:hover {
+  cursor: pointer;
+  color: black;
+  background-color: red;
+}
+
+.btn-delete:active {
+  background-color: darkred;
+}
+
+.btn-upp {
+  color: green;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-upp:hover {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+.btn-upp:active {
+  background-color: darkgreen;
+}
+
+.btn-down {
+  color: red;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-down:hover {
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+.btn-down:active {
+  background-color: darkred;
+}
+
+/* The pop up text */
+
+.thePopUp {
+  display: none;
+}
+
+.activatePopUp {
+  display: flex;
+  text-align: center;
+
+  justify-content: center;
+  font-size: 25px;
+  color: green;
+}
+
+/* The pop up text remove */
+
+.thePopUpRemove {
+  display: none;
+}
+
+.activateRemove {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  color: red;
+}
+
+.borderTodo {
+  list-style: none;
+  text-align: center;
+}
+
+.theTodoImg {
+  width: 30%;
+  height: 30%;
+  border: 1px solid black;
+}
