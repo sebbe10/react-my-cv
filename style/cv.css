@@ -1,0 +1,199 @@
+.imgAndContact {
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.aboutMeText {
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contactMe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.infoMe {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.imgMe {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.theCv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.aboutMe {
+  text-align: center;
+  margin: 10px;
+}
+
+.driveLicense {
+  background: white;
+  padding: 10px;
+  margin: 10px;
+}
+.phoneContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.mailContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.myIntress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.study {
+  text-align: center;
+  background-color: white;
+  width: 50%;
+  text-align: center;
+}
+
+.work {
+  text-align: center;
+  background-color: white;
+
+  width: 50%;
+}
+
+.cvCv {
+  font-size: 25px;
+}
+
+.utbildingBackground {
+  background-color: darkgray;
+  text-align: center;
+  font-size: 18px;
+  height: auto;
+  color: white;
+}
+
+.utbildingBackground h3 {
+  font-size: 14px;
+}
+
+.arbetsBackground {
+  background-color: darkgray;
+  text-align: center;
+  font-size: 18px;
+  height: auto;
+  color: white;
+}
+
+.arbetsBackground h3 {
+  font-size: 14px;
+}
+
+.theRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.theBorderOnTheMiddle {
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 768px) {
+  .theCv {
+    width: 60%;
+  }
+
+  .imgAndContact {
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 50px;
+  }
+
+  .imgMe {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .utbildingBackground {
+    background-color: darkgray;
+    text-align: center;
+    font-size: 20px;
+    height: auto;
+    color: white;
+  }
+
+  .arbetsBackground {
+    background-color: darkgray;
+    text-align: center;
+    font-size: 20px;
+    height: auto;
+    color: white;
+  }
+
+  .theRight {
+    padding: 50px;
+  }
+
+  .study {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .theDiv {
+    font-size: 16px;
+  }
+
+  .arbetsDiv {
+    padding: 15px;
+    font-size: 16px;
+  }
+}

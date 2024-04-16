@@ -8,8 +8,8 @@ function MyCv() {
           <div className="imgAndContact">
             <img className="imgMe" src={imgCvMe} alt="" />
             <div className="contactMe">
-              <h2>Cv</h2>
               <h3 className="infoMe">
+                <p className="cvCv">Cv</p>
                 <p>Sebastian Bjelkstam</p>
                 <p>Färgargårdstorget 52</p>
                 <p>116 43 Stockholm</p>
@@ -23,20 +23,20 @@ function MyCv() {
               tillsammans med andra, men kan även jobba självständigt, tar
               intiativ och föröker alltid göra mitt bästa.
             </p>
-            <h4 className="driveLicense">B Körkort</h4>
+            <h3 className="driveLicense">B Körkort</h3>
 
             <div className="phoneContact">
-              <h5>Telefon:</h5>
+              <h3>Telefon:</h3>
               <p>0735160566</p>
             </div>
 
             <div className="mailContact">
-              <h5>E-POST:</h5>
+              <h3>E-POST:</h3>
               <a>sebastian.bjelkstam@gmail.com</a>
             </div>
 
             <div className="myIntress">
-              <h5>Intressen</h5>
+              <h3>Intressen</h3>
               <p>Träning</p>
               <p>Fotboll</p>
               <p>Familj</p>
@@ -45,50 +45,54 @@ function MyCv() {
           </div>
         </div>
 
-        <div className="theRightSide">
-          <div className="theRight">
-            <div className="study">
-              <h4>Utbildning</h4>
-              <br />
-              <div>
-                <h5>Medieinstitutet, Stockholm</h5>
-                <p>2022 - 2024</p>
-                <p>Webbutveckling e-handel</p>
-              </div>
-              <div>
-                <h5>Halmstad Högskola</h5>
-                <p>2021</p>
-                <p>Tekniskt basår</p>
-              </div>
-              <div>
-                <h5>Nacka Gymnasium</h5>
-                <p>2018 - 2021</p>
-                <p>Bygg & Anläggning</p>
-              </div>
+        {/* <div className="theRightSide"> */}
+        <div className="theRight">
+          <div className="study">
+            <div className="utbildingBackground">
+              <h3>Utbildning</h3>
             </div>
 
-            <div className="work">
+            <div className="theDiv">
+              <h4>Medieinstitutet, Stockholm</h4>
+              <p>2022 - 2024</p>
+              <p>Webbutveckling e-handel</p>
+            </div>
+            <div className="theDiv">
+              <h4>Halmstad Högskola</h4>
+              <p>2021</p>
+              <p>Tekniskt basår</p>
+            </div>
+            <div className="theDiv">
+              <h4>Nacka Gymnasium</h4>
+              <p>2018 - 2021</p>
+              <p>Bygg & Anläggning</p>
+            </div>
+          </div>
+          <div className="theBorderOnTheMiddle"></div>
+          <div className="work">
+            <div className="arbetsBackground">
               <h3>Arbetslivserfarenhet</h3>
-              <div>
-                <div>
-                  <h4>Operando</h4>
-                  <p>2023 - 2024</p>
-                  <p>Praktik webbutveckling via min utbildning</p>
-                </div>
-                <div>
-                  <h5>Skanska Bygg</h5>
-                  <p>2018</p>
-                  <p>Extra arbete under lov</p>
-                </div>
-                <div>
-                  <h5>Stockholm Stad</h5>
-                  <p>2016</p>
-                  <p>Sommarjobb via kommunen</p>
-                </div>
+            </div>
+            <div>
+              <div className="arbetsDiv">
+                <h4>Operando</h4>
+                <p>2023 - 2024</p>
+                <p>Praktik webbutveckling via min utbildning</p>
+              </div>
+              <div className="arbetsDiv">
+                <h5>Skanska Bygg</h5>
+                <p>2018</p>
+                <p>Extra arbete under lov</p>
+              </div>
+              <div className="arbetsDiv">
+                <h5>Stockholm Stad</h5>
+                <p>2016</p>
+                <p>Sommarjobb via kommunen</p>
               </div>
             </div>
           </div>
         </div>
+        {/* </div> */}
       </div>
     </>
   );

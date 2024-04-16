@@ -7,6 +7,8 @@ import "./style/navbar.css";
 import "./style/footer.css";
 import "./style/projekt.css";
 import "./style/todo.css";
+import "./style/weather.css";
+import "./style/cv.css";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

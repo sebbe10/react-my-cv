@@ -82,7 +82,7 @@
   position: absolute;
   top: 0 !important;
   right: -1500px;
-  height: 100vh;
+  height: 500vh;
   /* background-color: whitesmoke; */
   background-color: #83a1b9;
   z-index: 100;
@@ -134,6 +134,7 @@
   justify-content: center;
   gap: 10px;
   padding: 50px;
+  color: black;
 }
 
 .fa-github {
@@ -202,12 +203,12 @@
 
   .fa-github,
   .fa-linkedin {
-    color: white;
+    color: black;
   }
 
   .fa-github:hover,
   .fa-linkedin:hover {
     cursor: pointer;
-    color: black;
+    color: darkblue;
   }
 }

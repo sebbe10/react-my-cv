@@ -43,6 +43,7 @@ function Navbar() {
         {/* for computer and smartpad */}
 
         <ul>
+          <CustomLink to="/">Hem</CustomLink>
           <CustomLink to="/projekt">Projekt</CustomLink>
           <CustomLink to="/mycv">Mitt cv</CustomLink>
           <CustomLink to="/aboutme">About me</CustomLink>
@@ -58,6 +59,8 @@ function Navbar() {
           </div>
         </ul>
       </nav>
+      {`${width} px`}
+      {`${height} px`}
 
       {/* For phone */}
       <nav className="thePhoneNav">

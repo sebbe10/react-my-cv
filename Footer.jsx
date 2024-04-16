@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 function Footer() {
   const [time, setTime] = useState(new Date());
-
+  const [myTime, setMyTime] = useState(new Date());
   useEffect(() => {
     const intervallId = setInterval(() => {
       setTime(new Date());
@@ -26,11 +26,25 @@ function Footer() {
     return number < 10 ? "0" + number : "" + number;
   }
 
+  function zeroBegining(number) {
+    return number < 10 ? "0" + number : "" + number;
+  }
+
+  function activateDate() {
+    let year = myTime.getFullYear();
+    let month = myTime.getMonth() + 1;
+    let day = myTime.getDate();
+    return `${zeroBegining(year)}-${zeroBegining(month)}-${zeroBegining(day)}`;
+  }
+
   return (
     <>
       <footer className="footer">
         <h4>Mail: sebastian.bjelkstam@gmail.com</h4>
-        <span>{activateClock()}</span>
+
+        <span>
+          {activateDate()} & {activateClock()}
+        </span>
       </footer>
     </>
   );
