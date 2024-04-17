@@ -12,6 +12,7 @@ import tictactoeImg from "./assets/tictactoe.png";
 import weatherImg from "./assets/weather.png";
 import { Link, Route, Routes } from "react-router-dom";
 import Weather from "./Projekt/Weather";
+import EmailRestApi from "./Components/EmailRestApi";
 
 function Header() {
   const slider = [
@@ -30,6 +31,7 @@ function Header() {
         <Route path="/projekt" element={<Projekt slider={slider} />}></Route>
         <Route path="/aboutme" element={<Aboutme />}></Route>
         <Route path="/mycv" element={<MyCv />}></Route>
+        <Route path="/contact" element={<EmailRestApi />}></Route>
         <Route path="/todolist" element={<TodoList />}></Route>
         <Route path="/clock" element={<Clock />}></Route>
         <Route path="/tictactoe" element={<TicTacToe />}></Route>

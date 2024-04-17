@@ -87,6 +87,7 @@
   padding: 10px;
   margin: 10px;
   height: auto;
+  text-align: center;
 }
 
 .backgroundAboutTodo {
@@ -94,6 +95,7 @@
   padding: 10px;
   margin: 10px;
   height: auto;
+  text-align: center;
 }
 
 .backgroundAboutWeather {
@@ -101,6 +103,7 @@
   padding: 10px;
   margin: 10px;
   height: auto;
+  text-align: center;
 }
 
 .myTicImg,
@@ -108,6 +111,26 @@
 .myWeatherImg {
   width: 150px;
   height: 150px;
+}
+
+.btn1 {
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin: 10px;
+  border: none;
+  color: white;
+  background-color: gray;
+}
+
+.btn1:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
+}
+
+.btn1:active {
+  background-color: gray;
+  color: white;
 }
 
 .borderAroundBtnAndText {

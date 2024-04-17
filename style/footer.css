@@ -12,3 +12,13 @@
   font-family: Arial;
   font-weight: 100;
 }
+
+.footer h4 {
+  font-family: Arial;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.footer span {
+  font-size: 15px;
+}

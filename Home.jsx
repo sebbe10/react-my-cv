@@ -4,6 +4,8 @@ import tictactoeImg from "./assets/tictactoe.png";
 
 import todllistImg from "./assets/todoImg.png";
 import { useState, useEffect } from "react";
+import EmailForm from "./Components/EmailForm";
+import EmailRestApi from "./Components/EmailRestApi";
 function Home({ slider, index }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -100,6 +102,7 @@ function Home({ slider, index }) {
           </div>
         </div>
       </div>
+
       <div className="myDiv">
         <div className="backNowledge" onMouseOver={seYour}>
           <h1>Mina kunskaper</h1>
