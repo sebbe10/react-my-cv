@@ -122,7 +122,9 @@ function Projekt({ slider, index }) {
       </div>
       <div className="cards">
         <div className="card1">
-          <img className="myTicImg" src={ticImg} alt="" />
+          <Link to="/tictactoe">
+            <img className="myTicImg" src={ticImg} alt="" />
+          </Link>
           <div className="borderAroundBtnAndText">
             <div>
               <p className="aboutTicTacToe">Hur Tic Tac Toe fungerar...</p>
@@ -133,7 +135,9 @@ function Projekt({ slider, index }) {
           </div>
         </div>
         <div className="card2">
-          <img className="myTodoImg" src={todoImg} alt="" />
+          <Link to="/todolist">
+            <img className="myTodoImg" src={todoImg} alt="" />
+          </Link>
           <div className="borderAroundBtnAndText">
             <div>
               <p className="aboutTodo">Hur Todo List fungerar...</p>
@@ -144,7 +148,9 @@ function Projekt({ slider, index }) {
           </div>
         </div>
         <div className="card3">
-          <img className="myWeatherImg" src={weatherImg} alt="" />
+          <Link to="/weather">
+            <img className="myWeatherImg" src={weatherImg} alt="" />
+          </Link>
           <div className="borderAroundBtnAndText">
             <div>
               <p className="aboutWeather">Här kan du söka upp...</p>
