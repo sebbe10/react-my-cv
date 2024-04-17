@@ -9,6 +9,7 @@ import "./style/projekt.css";
 import "./style/todo.css";
 import "./style/weather.css";
 import "./style/cv.css";
+import "./style/nowledge.css";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

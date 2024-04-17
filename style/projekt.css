@@ -15,7 +15,7 @@
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 2px 2px black;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 .singleSliderImg {
@@ -33,4 +33,88 @@
   font-family: Arial;
   font-weight: 100;
   font-size: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  /* align-content: center; */
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 320px;
+  align-items: center;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover {
+  box-shadow: 0 1px 1px 1px black;
+  border-radius: 5px;
+}
+.card1.activate1 {
+  box-shadow: 0 1px 1px 1px black;
+  border-radius: 5px;
+  height: auto;
+}
+
+.card2.activate2 {
+  box-shadow: 0 1px 1px 1px black;
+  border-radius: 5px;
+  height: auto;
+}
+
+.card3.activate3 {
+  box-shadow: 0 1px 1px 1px black;
+  border-radius: 5px;
+  height: auto;
+}
+
+.backgroundAboutTicTacToe {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+}
+
+.backgroundAboutTodo {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+}
+
+.backgroundAboutWeather {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+}
+
+.myTicImg,
+.myTodoImg,
+.myWeatherImg {
+  width: 150px;
+  height: 150px;
+}
+
+.borderAroundBtnAndText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* margin-top: 60px; */
 }

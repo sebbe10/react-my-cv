@@ -1,0 +1,202 @@
+.backNowledge {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  box-shadow: 0 2px 2px 2px black;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.myNowledge {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 25px;
+  padding: 50px;
+}
+
+.myHtml1 {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+.myHtml2 {
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.myHtml2.activate {
+  transition: 2s;
+  width: 75%;
+  background-color: #83a1b9;
+}
+
+/*  */
+
+.myWordpress1 {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+.myWordpress2 {
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.myWordpress2.activate {
+  transition: 2s;
+  width: 80%;
+  background-color: #83a1b9;
+}
+
+/*  */
+
+.myReact1 {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.myReact2 {
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.myReact2.activate {
+  transition: 2s;
+  width: 55%;
+  background-color: #83a1b9;
+}
+
+.myCss1 {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.myCss2 {
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.myCss2.activate {
+  transition: 2s;
+  width: 80%;
+  background-color: #83a1b9;
+}
+
+.myJavascript1 {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+.myJavascript2 {
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.myJavascript2.activate {
+  transition: 2s;
+  width: 55%;
+  background-color: #83a1b9;
+}
+
+.myPHP1 {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.myPHP2 {
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.myPHP2.activate {
+  transition: 2s;
+  width: 35%;
+  background-color: #83a1b9;
+}
+
+.myAPI1 {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.myAPI2 {
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.myAPI2.activate {
+  transition: 2s;
+  width: 45%;
+  background-color: #83a1b9;
+}
+
+.mySQL1 {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.mySQL2 {
+  width: 100px;
+  border-radius: 5px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.mySQL2.activate {
+  transition: 2s;
+  width: 35%;
+  background-color: #83a1b9;
+}
+
+.now h2 {
+  font-family: Arial;
+  font-weight: 100;
+}

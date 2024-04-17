@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import imgMe from "./assets/cvImgMe.jpg";
-import reactImg from "./assets/react.png";
+import tictactoeImg from "./assets/tictactoe.png";
 
 import todllistImg from "./assets/todoImg.png";
 import { useState, useEffect } from "react";
@@ -46,21 +46,6 @@ function Home({ slider, index }) {
     return () => clearInterval(intervalId); // Cleanup function to clear interval on component unmount
   }, [currentIndex]);
 
-  function showTextTodo() {
-    let showAboutTodo = document.querySelector(".aboutTodo");
-
-    if (showAboutTodo.innerHTML === "Hur Todo List fungerar...") {
-      showAboutTodo.classList.add("backgroundAboutTodo");
-
-      showAboutTodo.innerHTML =
-        "Hur Todo List fungerar, man kan lägg till namn och datum och så kan du ta bort personen information från listan om du vill. Du kan också flyyta upp personen i listan eller nedåt om du vill.";
-    } else {
-      showAboutTodo.classList.remove("backgroundAboutTodo");
-
-      showAboutTodo.innerHTML = "Hur Todo List fungerar...";
-    }
-  }
-
   function seYour() {
     let myHtml = document.querySelector(".myHtml2");
     myHtml.classList.add("activate");
@@ -75,6 +60,13 @@ function Home({ slider, index }) {
     myReact.classList.add("activate");
     let myWordpress2 = document.querySelector(".myWordpress2");
     myWordpress2.classList.add("activate");
+
+    let myPHP = document.querySelector(".myPHP2");
+    myPHP.classList.add("activate");
+    let myAPI = document.querySelector(".myAPI2");
+    myAPI.classList.add("activate");
+    let mySQL = document.querySelector(".mySQL2");
+    mySQL.classList.add("activate");
   }
 
   return (
@@ -109,36 +101,8 @@ function Home({ slider, index }) {
         </div>
       </div>
       <div className="myDiv">
-        <div className="card">
-          <img className="myReactImg" src={reactImg} alt="" />
-          <div>
-            <p>
-              Projekten som man kan se på min webbsida är bygga med React JS
-            </p>
-          </div>
-        </div>
-        <div className="card" onClick={showTextTodo} onMouseOver={showTextTodo}>
-          <img className="myTodoImg" src={todllistImg} alt="" />
-          <div>
-            <p className="aboutTodo">Hur Todo List fungerar...</p>
-            {/* <button className="btn1" onMouseOver={showTextTodo}>
-              Läs mer
-            </button> */}
-          </div>
-        </div>
-        <div className="card">
-          <img src="" alt="" />
-          <div>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
-              odit, consequatur repellendus quaerat exercitationem praesentium
-              quasi earum quam ex fuga, fugit necessitatibus inventore,
-              architecto esse distinctio sed error eum voluptate!
-            </p>
-          </div>
-        </div>
-
         <div className="backNowledge" onMouseOver={seYour}>
+          <h1>Mina kunskaper</h1>
           <div className="myNowledge">
             <div className="now">
               <h2>Html</h2>
@@ -172,6 +136,27 @@ function Home({ slider, index }) {
               <h2>React</h2>
               <div className="myReact1">
                 <div className="myReact2"></div>
+              </div>
+            </div>
+
+            <div className="now">
+              <h2>PHP</h2>
+              <div className="myPHP1">
+                <div className="myPHP2"></div>
+              </div>
+            </div>
+
+            <div className="now">
+              <h2>API</h2>
+              <div className="myAPI1">
+                <div className="myAPI2"></div>
+              </div>
+            </div>
+
+            <div className="now">
+              <h2>MySQL</h2>
+              <div className="mySQL1">
+                <div className="mySQL2"></div>
               </div>
             </div>
           </div>

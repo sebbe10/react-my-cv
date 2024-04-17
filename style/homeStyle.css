@@ -123,151 +123,6 @@
   border-radius: 5px;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 250px;
-  height: auto;
-  background-color: whitesmoke;
-  padding: 10px;
-  height: auto;
-  font-family: Arial;
-  font-weight: 100;
-  border-radius: 10%;
-}
-
-.backNowledge {
-  margin-top: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  background-color: whitesmoke;
-  height: auto;
-  flex-wrap: wrap;
-}
-
-.myNowledge {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  gap: 25px;
-  padding: 50px;
-}
-
-.myHtml1 {
-  display: flex;
-  flex-direction: column;
-  width: 100px;
-  border-radius: 5px;
-  height: 10px;
-  border: 1px solid black;
-}
-.myHtml2 {
-  width: 100px;
-  border-radius: 5px;
-  height: 10px;
-  border: 1px solid black;
-}
-
-.myHtml2.activate {
-  transition: 1s;
-  width: 75%;
-  background-color: #83a1b9;
-}
-
-/*  */
-
-.myWordpress1 {
-  display: flex;
-  flex-direction: row;
-  width: 100px;
-  border-radius: 5px;
-  height: 10px;
-  border: 1px solid black;
-}
-.myWordpress2 {
-  width: 100px;
-  border-radius: 5px;
-  height: 10px;
-  border: 1px solid black;
-}
-
-.myWordpress2.activate {
-  transition: 1s;
-  width: 80%;
-  background-color: #83a1b9;
-}
-
-/*  */
-
-.myReact1 {
-  display: flex;
-  flex-direction: row;
-  width: 100px;
-  border-radius: 5px;
-  height: 10px;
-  border: 1px solid black;
-}
-.myReact2 {
-  width: 100px;
-  border-radius: 5px;
-  height: 10px;
-  border: 1px solid black;
-}
-
-.myReact2.activate {
-  transition: 1s;
-  width: 55px;
-  background-color: #83a1b9;
-}
-
-.myCss1 {
-  display: flex;
-  flex-direction: row;
-  width: 100px;
-  border-radius: 5px;
-  height: 10px;
-  border: 1px solid black;
-}
-.myCss2 {
-  width: 100px;
-  border-radius: 5px;
-  height: 10px;
-  border: 1px solid black;
-}
-
-.myCss2.activate {
-  transition: 1s;
-  width: 80px;
-  background-color: #83a1b9;
-}
-
-/*  */
-.myJavascript1 {
-  display: flex;
-  flex-direction: row;
-  width: 100px;
-  border-radius: 5px;
-  height: 10px;
-  border: 1px solid black;
-}
-.myJavascript2 {
-  width: 100px;
-  border-radius: 5px;
-  height: 10px;
-  border: 1px solid black;
-}
-
-.myJavascript2.activate {
-  transition: 1s;
-  width: 55px;
-  background-color: #83a1b9;
-}
 /*  */
 
 .myReactImg {
@@ -280,16 +135,30 @@
   height: 150px;
 }
 
-/* .backgroundAboutTodo:hover {
-  margin: 10px;
-  background-color: white;
-  color: black;
-} */
-
 .searchImg {
   width: 50px;
   height: 50px;
   border: 1px solid black;
+}
+
+.btn1 {
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin: 10px;
+  border: none;
+  color: white;
+  background-color: gray;
+}
+
+.btn1:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
+}
+
+.btn1:active {
+  background-color: gray;
+  color: white;
 }
 
 @media screen and (min-width: 768px) {

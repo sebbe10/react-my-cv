@@ -1,10 +1,14 @@
 .footer {
   display: flex;
-  /* align-items: center;
-  justify-content: space-around; */
-  height: 50px;
+  height: 60px;
   background: #83a1b9;
-  /* color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  gap: 5px;
   font-family: Arial;
-  font-weight: 100; */
+  font-weight: 100;
 }
