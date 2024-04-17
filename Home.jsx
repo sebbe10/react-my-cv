@@ -44,7 +44,7 @@ function Home({ slider, index }) {
   console.log(slider[currentIndex].imgLink);
 
   useEffect(() => {
-    const intervalId = setInterval(rightClick, 5000); // Change image every 3 seconds (3000 milliseconds)
+    const intervalId = setInterval(rightClick, 2000); // Change image every 3 seconds (3000 milliseconds)
     return () => clearInterval(intervalId); // Cleanup function to clear interval on component unmount
   }, [currentIndex]);
 

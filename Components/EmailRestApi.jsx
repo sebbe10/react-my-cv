@@ -141,11 +141,20 @@ const EmailRestApi = () => {
       );
       console.log(res.data);
 
-      //   let messageSent = document.querySelector(".messageSent");
-      //   messageSent.innerHTML = "Meddelande skickat";
-      //   if (messageSent === "") {
-      setSuccessMessage("Meddelandet skickat");
+      let messageSent = document.querySelector(".messageSent");
       let sendBtn = document.querySelector(".sendBtn");
+      messageSent.innerHTML = "Meddelande skickat";
+      messageSent.classList.add("goodMessage");
+      setInterval(() => {
+        if (messageSent === "") {
+          // setSuccessMessage("Meddelandet skickat");
+        } else {
+          messageSent.innerHTML = "";
+
+          sendBtn.classList.remove("sendGood");
+        }
+      }, 1500);
+
       sendBtn.classList.add("sendGood");
 
       setInterval(() => {

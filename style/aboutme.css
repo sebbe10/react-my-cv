@@ -1,0 +1,38 @@
+.borderAboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  background-color: whitesmoke;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.imgAndAbout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.aboutMeImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.textAboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  padding: 10px 10px;
+  margin-bottom: 50px;
+  box-shadow: 0 1px 1px black;
+}
