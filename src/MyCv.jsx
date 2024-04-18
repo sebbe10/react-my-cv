@@ -11,8 +11,6 @@ function MyCv() {
                 <h3 className="infoMe">
                   <p className="cvCv">Cv</p>
                   <p>Sebastian Bjelkstam</p>
-                  {/* <p>Färgargårdstorget 52</p> */}
-                  {/* <p>116 43 Stockholm</p> */}
                 </h3>
               </div>
             </div>
@@ -24,11 +22,6 @@ function MyCv() {
                 tar intiativ och föröker alltid göra mitt bästa.
               </p>
               <h3 className="driveLicense">B Körkort</h3>
-
-              <div className="phoneContact">
-                {/* <h3>Telefon:</h3> */}
-                {/* <p>0735160566</p> */}
-              </div>
 
               <div className="mailContact">
                 <h3>E-POST:</h3>
@@ -45,7 +38,6 @@ function MyCv() {
             </div>
           </div>
 
-          {/* <div className="theRightSide"> */}
           <div className="theRight">
             <div className="study">
               <div className="utbildingBackground">
@@ -93,7 +85,6 @@ function MyCv() {
             </div>
           </div>
         </div>
-        {/* </div> */}
       </div>
     </>
   );
