@@ -53,6 +53,10 @@
   background-color: gray;
 }
 
+.sendBtn:hover {
+  cursor: pointer;
+  background-color: darkgray;
+}
 .goodMessage {
   text-align: center;
   color: darkgreen;
