@@ -25,7 +25,9 @@ function Aboutme() {
             er så kan jag berätta mer om mig själv. Bästa hälsningar Sebastian
             Bjelkstam Färgargårdstorget 52 116 43 Stockholm Mobil: 0735 160 566
             e-mail: sebastian.bjelkstam@gmail.com eller kontakta här:
-            <Link to="/contact">Contact</Link>
+            <Link className="theAboutContact" to="/contact">
+              contact
+            </Link>
           </p>
         </div>
       </div>

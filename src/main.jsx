@@ -13,6 +13,7 @@ import "./style/nowledge.css";
 import "./style/email.css";
 import "./style/aboutme.css";
 import "./style/tictactoe.css";
+import "./style/clock.css";
 
 import { BrowserRouter } from "react-router-dom";
 

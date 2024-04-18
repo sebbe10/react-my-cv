@@ -41,40 +41,43 @@ function Weather() {
 
   return (
     <>
-      <div className="weatherHeight">
-        <div className="container">
-          <div className="inputAndButton">
-            <input
-              className="searchInput"
-              type="text"
-              placeholder="Enter a city..."
-              onChange={(e) => setSearch(e.target.value)}
-            />
+      <div className="allWeather">
+        <h2>Sök väder</h2>
 
-            {/* <button className="searchBtn" onClick={searchButton}>
-              Sök
-            </button> */}
-            <img
-              className="searchImg"
-              src={searchImg}
-              alt=""
-              onClick={searchButton}
-            />
+        <div className="weatherHeight">
+          <div className="container">
+            <div className="inputAndButton">
+              <input
+                className="searchInput"
+                type="text"
+                placeholder="Enter a city..."
+                onChange={(e) => setSearch(e.target.value)}
+              />
+
+              <img
+                className="searchImg"
+                src={searchImg}
+                alt=""
+                onClick={searchButton}
+              />
+            </div>
+
+            {error && (
+              <div
+                className="error"
+                style={{ color: "red", marginTop: "10px" }}>
+                {error}
+              </div>
+            )}
+            {weather.main && (
+              <div className="layoutWeather">
+                <p>Name: {weather.name}</p>
+                <p>{(weather.main.temp - 273.15).toFixed(2)} °C</p>
+                <p>{weather.weather[0].main}</p>
+                <p>{weather.weather[0].description}</p>
+              </div>
+            )}
           </div>
-
-          {error && (
-            <div className="error" style={{ color: "red", marginTop: "10px" }}>
-              {error}
-            </div>
-          )}
-          {weather.main && (
-            <div className="layoutWeather">
-              <p>Name: {weather.name}</p>
-              <p>{(weather.main.temp - 273.15).toFixed(2)} °C</p>
-              <p>{weather.weather[0].main}</p>
-              <p>{weather.weather[0].description}</p>
-            </div>
-          )}
         </div>
       </div>
     </>

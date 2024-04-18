@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 50px;
 }
 
 .divStyleImgSlider {
@@ -40,8 +41,6 @@
   font-family: Arial;
   font-weight: 100;
   font-size: 30px;
-  /* background-color: lightgray; */
-  /* box-shadow: 0 1px 1px black; */
   color: black;
 }
 
@@ -60,8 +59,6 @@
 .card3,
 .card4 {
   display: flex;
-  /* align-content: center; */
-  /* justify-content: center; */
   flex-direction: column;
   flex-wrap: wrap;
   width: 250px;
@@ -84,24 +81,6 @@
   border-radius: 5px;
   height: auto;
 }
-/* 
-.card2.activate2 {
-  box-shadow: 0 1px 1px 1px black;
-  border-radius: 5px;
-  height: auto;
-}
-
-.card3.activate3 {
-  box-shadow: 0 1px 1px 1px black;
-  border-radius: 5px;
-  height: auto;
-}
-
-.card4.activate4 {
-  box-shadow: 0 1px 1px 1px black;
-  border-radius: 5px;
-  height: auto;
-} */
 
 .backgroundAboutTicTacToe {
   background-color: white;

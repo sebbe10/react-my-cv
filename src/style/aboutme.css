@@ -36,3 +36,20 @@
   margin-bottom: 50px;
   box-shadow: 0 1px 1px black;
 }
+
+.theAboutContact {
+  text-decoration: none;
+  color: #83a1b9;
+
+  font-family: Arial;
+  font-weight: 100;
+}
+
+.theAboutContact:hover {
+  cursor: pointer;
+  color: darkblue;
+}
+
+.theAboutContact:active {
+  color: blue;
+}

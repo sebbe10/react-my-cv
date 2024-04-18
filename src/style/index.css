@@ -29,44 +29,6 @@ body {
   align-items: center;
 }
 
-/* The clock projekt */
-
-.theClock {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100%;
-}
-
-.backClock {
-  display: flex;
-  text-align: center;
-  width: auto;
-  background: whitesmoke;
-  height: 50%;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 5px 5px black;
-}
-.clockTime {
-  color: black;
-  font-size: 5rem;
-}
-
-.borderClock {
-  list-style: none;
-  text-align: center;
-}
-.theClockImg {
-  width: 30%;
-  height: 30%;
-  border: 1px solid black;
-}
-
-/*  */
-
 /* Image slider style */
 
 .fa-arrow-left,

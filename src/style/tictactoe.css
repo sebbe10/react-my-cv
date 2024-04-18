@@ -1,5 +1,6 @@
 .allTicTacToe {
   text-align: center;
+  margin-top: 50px;
 }
 .tictactoeGame {
   display: flex;
