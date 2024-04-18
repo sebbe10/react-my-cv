@@ -3,6 +3,7 @@ import { useState } from "react";
 import ticImg from "./tictactoe.png";
 import todoImg from "./todoImg.png";
 import weatherImg from "./weather.png";
+import clockimg from "./theclock.png";
 
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
@@ -98,10 +99,27 @@ function Projekt({ slider, index }) {
     }
   }
 
+  function showTextClock() {
+    let activateCard = document.querySelector(".card4");
+
+    let showAboutClock = document.querySelector(".aboutClock");
+
+    if (showAboutClock.innerHTML === "Här kan du kolla upp...") {
+      activateCard.classList.add("activate4");
+      showAboutClock.classList.add("backgroundAboutClock");
+
+      showAboutClock.innerHTML = "Här kan du kolla upp vad klockan är.";
+    } else {
+      activateCard.classList.remove("activate4");
+
+      showAboutClock.classList.remove("backgroundAboutClock");
+
+      showAboutClock.innerHTML = "Här kan du kolla upp...";
+    }
+  }
+
   return (
     <>
-      <h1>Projekt</h1>
-
       <div className="divProjekt">
         <div className="divStyleImgSlider">
           <i
@@ -120,45 +138,63 @@ function Projekt({ slider, index }) {
           </div>
         </div>
       </div>
-      <div className="cards">
-        <div className="card1">
-          <Link to="/tictactoe">
-            <img className="myTicImg" src={ticImg} alt="" />
-          </Link>
-          <div className="borderAroundBtnAndText">
-            <div>
-              <p className="aboutTicTacToe">Hur Tic Tac Toe fungerar...</p>
+      <div className="allCards">
+        <h2>Om projekten</h2>
+        <div className="cards">
+          <div className="card1">
+            <Link to="/tictactoe">
+              <img className="myTicImg" src={ticImg} alt="" />
+            </Link>
+            <div className="borderAroundBtnAndText">
+              <div>
+                <p className="aboutTicTacToe">Hur Tic Tac Toe fungerar...</p>
+              </div>
+              <button className="btn1" onClick={showTextTicTacToe}>
+                Läs mer
+              </button>
             </div>
-            <button className="btn1" onClick={showTextTicTacToe}>
-              Läs mer
-            </button>
           </div>
-        </div>
-        <div className="card2">
-          <Link to="/todolist">
-            <img className="myTodoImg" src={todoImg} alt="" />
-          </Link>
-          <div className="borderAroundBtnAndText">
-            <div>
-              <p className="aboutTodo">Hur Todo List fungerar...</p>
+          <div className="card2">
+            <Link to="/todolist">
+              <img className="myTodoImg" src={todoImg} alt="" />
+            </Link>
+            <div className="borderAroundBtnAndText">
+              <div>
+                <p className="aboutTodo">Hur Todo List fungerar...</p>
+              </div>
+              <button className="btn1" onClick={showTextTodo}>
+                Läs mer
+              </button>
             </div>
-            <button className="btn1" onClick={showTextTodo}>
-              Läs mer
-            </button>
           </div>
-        </div>
-        <div className="card3">
-          <Link to="/weather">
-            <img className="myWeatherImg" src={weatherImg} alt="" />
-          </Link>
-          <div className="borderAroundBtnAndText">
-            <div>
-              <p className="aboutWeather">Här kan du söka upp...</p>
-            </div>
+          <div className="card3">
+            <Link to="/weather">
+              <img className="myWeatherImg" src={weatherImg} alt="" />
+            </Link>
+            <div className="borderAroundBtnAndText">
+              <div>
+                <p className="aboutWeather">Här kan du söka upp...</p>
+              </div>
 
-            <button className="btn1" onClick={showTextWeather}>
-              Läs mer
-            </button>
+              <button className="btn1" onClick={showTextWeather}>
+                Läs mer
+              </button>
+            </div>
+          </div>
+
+          <div className="card4">
+            <Link to="/clock">
+              <img className="myClockImg" src={clockimg} alt="" />
+            </Link>
+            <div className="borderAroundBtnAndText">
+              <div>
+                <p className="aboutClock">Här kan du kolla upp...</p>
+              </div>
+
+              <button className="btn1" onClick={showTextClock}>
+                Läs mer
+              </button>
+            </div>
           </div>
         </div>
       </div>

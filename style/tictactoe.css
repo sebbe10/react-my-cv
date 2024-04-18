@@ -1,0 +1,67 @@
+.allTicTacToe {
+  text-align: center;
+}
+.tictactoeGame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px;
+}
+
+.theBorder {
+  background-color: whitesmoke;
+  padding: 50px;
+}
+
+/* Tic tac to game */
+
+.showStatus {
+  font-size: 25px;
+  font-family: Arial;
+}
+
+.theBorder {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.theBorder h1 {
+  font-family: Arial;
+  font-weight: 100;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.border-row {
+  display: flex;
+}
+
+.square {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+.resetGameTicTacToe {
+  background-color: whitesmoke;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-family: Arial;
+  font-weight: 100;
+}
+.resetGameTicTacToe:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+}
+
+.resetGameTicTacToe:active {
+  background-color: black;
+}

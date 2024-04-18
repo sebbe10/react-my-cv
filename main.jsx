@@ -12,6 +12,7 @@ import "./style/cv.css";
 import "./style/nowledge.css";
 import "./style/email.css";
 import "./style/aboutme.css";
+import "./style/tictactoe.css";
 
 import { BrowserRouter } from "react-router-dom";
 

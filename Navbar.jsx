@@ -60,18 +60,18 @@ function Navbar() {
           </div>
         </ul>
       </nav>
-      {`${width} px`}
-      {`${height} px`}
+      {/* {`${width} px`} */}
+      {/* {`${height} px`} */}
 
       {/* For phone */}
       <nav className="thePhoneNav">
         <h3>
           <Link to="/" className="site-title">
-            Min portfolio
+            My Cv
           </Link>
 
-          {`${width} px`}
-          {`${height} px`}
+          {/* {`${width} px`} */}
+          {/* {`${height} px`} */}
         </h3>
 
         <i className="fa-solid fa-bars" onClick={openMenu}></i>

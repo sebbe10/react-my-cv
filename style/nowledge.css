@@ -9,6 +9,11 @@
   flex-wrap: wrap;
 }
 
+.backNowledge h1 {
+  font-family: Arial;
+  font-weight: 100;
+}
+
 .myNowledge {
   display: flex;
   flex-wrap: wrap;

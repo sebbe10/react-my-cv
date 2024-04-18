@@ -35,6 +35,16 @@
   font-size: 20px;
 }
 
+.allCards h2 {
+  text-align: center;
+  font-family: Arial;
+  font-weight: 100;
+  font-size: 30px;
+  /* background-color: lightgray; */
+  /* box-shadow: 0 1px 1px black; */
+  color: black;
+}
+
 .cards {
   display: flex;
   flex-direction: row;
@@ -47,29 +57,34 @@
 
 .card1,
 .card2,
-.card3 {
+.card3,
+.card4 {
   display: flex;
   /* align-content: center; */
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
   flex-wrap: wrap;
-  width: 300px;
-  height: 320px;
+  width: 250px;
+  height: auto;
   align-items: center;
 }
 
 .card1:hover,
 .card2:hover,
-.card3:hover {
+.card3:hover,
+.card4:hover {
   box-shadow: 0 1px 1px 1px black;
   border-radius: 5px;
 }
-.card1.activate1 {
+.card1.activate1,
+.card2.activate2,
+.card3.activate3,
+.card4.activate4 {
   box-shadow: 0 1px 1px 1px black;
   border-radius: 5px;
   height: auto;
 }
-
+/* 
 .card2.activate2 {
   box-shadow: 0 1px 1px 1px black;
   border-radius: 5px;
@@ -81,6 +96,12 @@
   border-radius: 5px;
   height: auto;
 }
+
+.card4.activate4 {
+  box-shadow: 0 1px 1px 1px black;
+  border-radius: 5px;
+  height: auto;
+} */
 
 .backgroundAboutTicTacToe {
   background-color: white;
@@ -106,9 +127,18 @@
   text-align: center;
 }
 
+.backgroundAboutClock {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+  text-align: center;
+}
+
 .myTicImg,
 .myTodoImg,
-.myWeatherImg {
+.myWeatherImg,
+.myClockImg {
   width: 150px;
   height: 150px;
 }
@@ -139,5 +169,4 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  /* margin-top: 60px; */
 }

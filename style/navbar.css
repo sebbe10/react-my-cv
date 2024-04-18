@@ -76,6 +76,8 @@
 .thePhoneNav a {
   text-decoration: none;
   font-size: 25px;
+  font-family: Arial;
+  font-weight: 100;
 }
 
 .nav {
@@ -139,9 +141,16 @@
 
 .fa-github {
   font-size: 35px;
+  color: black;
 }
 .fa-linkedin {
   font-size: 35px;
+  color: black;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover {
+  color: darkblue;
 }
 
 .nav-computer {
@@ -168,6 +177,10 @@
     height: 70px;
   }
 
+  .nav-computer a:hover {
+    color: black;
+  }
+
   .nav-computer h3 {
     font-size: 30px;
   }
@@ -183,12 +196,23 @@
     justify-content: space-evenly;
   }
 
+  .nav-computer li:hover {
+    text-align: center;
+    width: auto;
+  }
+
   .nav-computer a {
     font-family: Arial;
     font-weight: 100;
     text-decoration: none;
     color: white;
     font-size: 22px;
+  }
+
+  .nav-computer a:hover {
+    color: darkblue;
+
+    text-decoration: 1px underline black;
   }
 
   .gitLinkComputer {
