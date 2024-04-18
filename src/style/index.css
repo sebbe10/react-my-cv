@@ -10,67 +10,6 @@ body {
   font-family: Arial;
   font-weight: 100;
 }
-/* * {
-  box-sizing: border-box;
-}
-/* 
-body {
-  margin: 0;
-  background-color: white;
-} */
-*/
-
-/* Header */
-/* .gitLink {
-  display: flex;
-  gap: 25px;
-  font-size: 30px;
-} */
-
-/*  */
-
-/* .nav {
-  background-color: whitesmoke;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  gap: 2rem;
-  width: auto;
-  margin: auto;
-  margin-top: 10px;
-  padding: 10px;
-  box-shadow: 0 1px 1px black;
-}
-
-.site-title {
-  font-size: 2rem;
-} */
-
-/* .nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  gap: 1rem;
-}
-
-.nav a {
-  color: gray;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  height: 100%;
-} */
-
-/* .nav li:hover {
-  background-color: rgba(151, 179, 226, 0.825);
-  color: white;
-}
-
-.nav a:active {
-  color: black;
-} */
 
 /* All projekt */
 
