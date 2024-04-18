@@ -47,7 +47,7 @@ function Navbar() {
           <CustomLink to="/projekt">Projekt</CustomLink>
           <CustomLink to="/mycv">Mitt cv</CustomLink>
           <CustomLink to="/aboutme">About me</CustomLink>
-          <CustomLink to="/contact">Kontakt</CustomLink>
+          {/* <CustomLink to="/contact">Kontakt</CustomLink> */}
 
           <div className="gitLinkComputer">
             <a href="https://github.com/sebbe10">
@@ -86,7 +86,7 @@ function Navbar() {
             <CustomLink to="/projekt">Projekt</CustomLink>
             <CustomLink to="/mycv">Mitt cv</CustomLink>
             <CustomLink to="/aboutme">About me</CustomLink>
-            <CustomLink to="/contact">Kontakt</CustomLink>
+            {/* <CustomLink to="/contact">Kontakt</CustomLink> */}
           </ul>
 
           <div className="gitLink">
