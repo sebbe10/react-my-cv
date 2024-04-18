@@ -73,7 +73,7 @@ function Home({ slider, index }) {
 
   return (
     <>
-      <div className="homeStyle">
+      <div className="homeStyle" onClick={seYour} onMouseOver={seYour}>
         <div className="searchAndProject">
           <div className="layoutSearch">
             <img className="homeImgMe" src={imgMe} alt="" />
@@ -101,73 +101,74 @@ function Home({ slider, index }) {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="myDiv">
-        <div
-          className="backNowledge"
-          onTouchCancel={seYour}
-          onDragOver={seYour}
-          onDrag={seYour}
-          onDragEnter={seYour}
-          onPointerDown={seYour}
-          onPointerUp={seYour}
-          onMouseOver={seYour}>
-          <h1>Mina kunskaper</h1>
-          <div className="myNowledge">
-            <div className="now">
-              <h2>Html</h2>
-              <div className="myHtml1">
-                <div className="myHtml2"></div>
+        <div className="myDiv">
+          <div
+            className="backNowledge"
+            onTouchCancel={seYour}
+            onDragOver={seYour}
+            onDrag={seYour}
+            onDragEnter={seYour}
+            onPointerDown={seYour}
+            onTouchMove={seYour}
+            onPointerUp={seYour}
+            onMouseOver={seYour}>
+            <h1>Mina kunskaper</h1>
+            <div className="myNowledge">
+              <div className="now">
+                <h2>Html</h2>
+                <div className="myHtml1">
+                  <div className="myHtml2"></div>
+                </div>
               </div>
-            </div>
 
-            <div className="now">
-              <h2>Css/Scss</h2>
-              <div className="myCss1">
-                <div className="myCss2"></div>
+              <div className="now">
+                <h2>Css/Scss</h2>
+                <div className="myCss1">
+                  <div className="myCss2"></div>
+                </div>
               </div>
-            </div>
 
-            <div className="now">
-              <h2>JavaScript</h2>
-              <div className="myJavascript1">
-                <div className="myJavascript2"></div>
+              <div className="now">
+                <h2>JavaScript</h2>
+                <div className="myJavascript1">
+                  <div className="myJavascript2"></div>
+                </div>
               </div>
-            </div>
 
-            <div className="now">
-              <h2>Wordpress</h2>
-              <div className="myWordpress1">
-                <div className="myWordpress2"></div>
+              <div className="now">
+                <h2>Wordpress</h2>
+                <div className="myWordpress1">
+                  <div className="myWordpress2"></div>
+                </div>
               </div>
-            </div>
 
-            <div className="now">
-              <h2>React</h2>
-              <div className="myReact1">
-                <div className="myReact2"></div>
+              <div className="now">
+                <h2>React</h2>
+                <div className="myReact1">
+                  <div className="myReact2"></div>
+                </div>
               </div>
-            </div>
 
-            <div className="now">
-              <h2>PHP</h2>
-              <div className="myPHP1">
-                <div className="myPHP2"></div>
+              <div className="now">
+                <h2>PHP</h2>
+                <div className="myPHP1">
+                  <div className="myPHP2"></div>
+                </div>
               </div>
-            </div>
 
-            <div className="now">
-              <h2>API</h2>
-              <div className="myAPI1">
-                <div className="myAPI2"></div>
+              <div className="now">
+                <h2>API</h2>
+                <div className="myAPI1">
+                  <div className="myAPI2"></div>
+                </div>
               </div>
-            </div>
 
-            <div className="now">
-              <h2>MySQL</h2>
-              <div className="mySQL1">
-                <div className="mySQL2"></div>
+              <div className="now">
+                <h2>MySQL</h2>
+                <div className="mySQL1">
+                  <div className="mySQL2"></div>
+                </div>
               </div>
             </div>
           </div>

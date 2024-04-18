@@ -2,6 +2,7 @@
 
 .homeStyle {
   display: flex;
+  flex-direction: column !important;
   /* height: 90vh; */
 }
 .searchAndProject {
