@@ -45,13 +45,13 @@
   outline: none;
 }
 
-.sendBtn {
+/* .sendBtn {
   border: none;
   border-radius: 5px;
   padding: 7px;
   color: white;
   background-color: gray;
-}
+} */
 
 .sendBtn:hover {
   cursor: pointer;
