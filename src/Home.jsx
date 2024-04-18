@@ -109,6 +109,7 @@ function Home({ slider, index }) {
           onTouchCancel={seYour}
           onDragOver={seYour}
           onDrag={seYour}
+          onDragEnter={seYour}
           onMouseOver={seYour}>
           <h1>Mina kunskaper</h1>
           <div className="myNowledge">
