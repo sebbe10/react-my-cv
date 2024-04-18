@@ -73,7 +73,13 @@ function Home({ slider, index }) {
 
   return (
     <>
-      <div className="homeStyle" onClick={seYour} onMouseOver={seYour}>
+      <div
+        className="homeStyle"
+        onClick={seYour}
+        onMouseOver={seYour}
+        onTouchMove={seYour}
+        onTouchEnd={seYour}
+        onTouchStart={seYour}>
         <div className="searchAndProject">
           <div className="layoutSearch">
             <img className="homeImgMe" src={imgMe} alt="" />
