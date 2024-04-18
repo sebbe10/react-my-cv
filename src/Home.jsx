@@ -110,6 +110,8 @@ function Home({ slider, index }) {
           onDragOver={seYour}
           onDrag={seYour}
           onDragEnter={seYour}
+          onPointerDown={seYour}
+          onPointerUp={seYour}
           onMouseOver={seYour}>
           <h1>Mina kunskaper</h1>
           <div className="myNowledge">
