@@ -104,11 +104,13 @@ function Home({ slider, index }) {
 
         <div
           className="myDiv"
+          onResize={seYour}
           onClick={seYour}
           onMouseOver={seYour}
-          onTouchMove={seYour}
-          onTouchEnd={seYour}
-          onTouchStart={seYour}>
+          // onTouchMove={seYour}
+          // onTouchEnd={seYour}
+          // onTouchStart={seYour}
+        >
           <div
             className="backNowledge"
             onTouchCancel={seYour}
