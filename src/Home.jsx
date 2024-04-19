@@ -71,7 +71,6 @@ function Home({ slider, index }) {
     mySQL.classList.add("activate");
   }
 
-  addEventListener("");
   return (
     <>
       <div className="homeStyle">
