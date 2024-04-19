@@ -71,6 +71,7 @@ function Home({ slider, index }) {
     mySQL.classList.add("activate");
   }
 
+  addEventListener("");
   return (
     <>
       <div className="homeStyle">
@@ -107,6 +108,7 @@ function Home({ slider, index }) {
           onResize={seYour}
           onClick={seYour}
           onMouseOver={seYour}
+          onDrag={seYour}
           // onTouchMove={seYour}
           // onTouchEnd={seYour}
           // onTouchStart={seYour}
