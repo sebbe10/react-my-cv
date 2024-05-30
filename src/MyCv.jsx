@@ -17,9 +17,9 @@ function MyCv() {
             <div className="aboutMe">
               <h3>Vem är jag</h3>
               <p className="aboutMeText">
-                Jag är en aktiv peron, ansvarsfull och punktlig. Jag jobbar
+                Jag är en aktiv person, ansvarsfull och punktlig. Jag jobbar
                 gärna tillsammans med andra, men kan även jobba självständigt,
-                tar intiativ och föröker alltid göra mitt bästa.
+                tar intiativ och försöker alltid göra mitt bästa.
               </p>
               <h3 className="driveLicense">B Körkort</h3>
 
